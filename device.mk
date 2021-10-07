@@ -101,6 +101,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl:32 \
     android.hardware.audio.effect@5.0-impl:32 \
     android.hardware.audio.service \
+    android.hardware.bluetooth.a2dp@1.0.vendor \
     android.hardware.bluetooth.audio@2.0-impl:32 \
     android.hardware.soundtrigger@2.2-impl:32 \
     audio.a2dp.default \
@@ -144,6 +145,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0.vendor \
     libbthost_if \
     vendor.qti.hardware.btconfigstore@1.0 \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
@@ -202,6 +204,7 @@ PRODUCT_PACKAGES += \
     gralloc.sdm710 \
     hwcomposer.sdm710 \
     libtinyxml \
+    libtinyxml.vendor \
     libvulkan \
     memtrack.sdm710 \
     vendor.display.config@1.9 \
@@ -211,6 +214,7 @@ PRODUCT_PACKAGES += \
 
 # DRM
 PRODUCT_PACKAGES += \
+    android.hardware.drm@1.4.vendor \
     android.hardware.drm@1.4-service.clearkey
 
 # Fingerprint
@@ -222,6 +226,15 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl:64 \
     android.hardware.health@2.1-impl.recovery \
     android.hardware.health@2.1-service
+
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0.vendor
+
+# GPS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.1.vendor \
+    android.hardware.gnss@2.1.vendor
 
 # HIDL
 PRODUCT_PACKAGES += \
@@ -252,6 +265,10 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.1.vendor
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.RMX1851
@@ -267,6 +284,7 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
+    android.hardware.media.c2@1.0.vendor \
     libc2dcolorconvert \
     libOmxAacEnc \
     libOmxAmrEnc \
@@ -297,7 +315,12 @@ PRODUCT_COPY_FILES += \
 # Net
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1 \
+    android.system.net.netd@1.1.vendor \
     netutils-wrapper-1.0
+
+# Neuralnetworks
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.2.vendor
 
 # Parts
 $(call inherit-product, packages/apps/RealmeParts/parts.mk)
@@ -330,8 +353,11 @@ PRODUCT_COPY_FILES += \
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
+    android.hardware.radio@1.2.vendor \
     android.hardware.radio.config@1.0 \
+    android.hardware.radio.config@1.0.vendor \
     android.hardware.secure_element@1.0 \
+    android.hardware.secure_element@1.0.vendor \
     libjson \
     librmnetctl
 
@@ -349,6 +375,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
+    android.frameworks.sensorservice@1.0.vendor \
     android.hardware.sensors@1.0-impl:64 \
     android.hardware.sensors@1.0-service.RMX1851 \
     libsensorndkbridge
@@ -399,6 +426,7 @@ PRODUCT_PACKAGES += \
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
+    android.hardware.wifi@1.5.vendor \
     hostapd \
     libwifi-hal-qcom \
     libwpa_client \
