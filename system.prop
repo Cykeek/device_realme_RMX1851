@@ -95,5 +95,8 @@ ro.qti.sensors.wu=false
 persist.data.iwlan.enable=true
 persist.data.iwlan.rekey=4294967295
 
+# Storage.xml moment
+persist.sys.binary_xml=false
+
 # WFD
 persist.sys.wfd.virtual=0
