@@ -47,7 +47,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay-system
 
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    DeviceNoCutoutOverlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
