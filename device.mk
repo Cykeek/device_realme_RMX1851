@@ -22,6 +22,9 @@ $(call inherit-product-if-exists, vendor/realme/RMX1851/RMX1851-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2248
 TARGET_SCREEN_WIDTH := 1080
 
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+RELAX_USES_LIBRARY_CHECK := true
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
