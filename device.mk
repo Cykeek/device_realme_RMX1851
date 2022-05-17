@@ -320,7 +320,7 @@ PRODUCT_PACKAGES += \
 
 # Neuralnetworks
 PRODUCT_PACKAGES += \
-    android.hardware.neuralnetworks@1.2.vendor
+    android.hardware.neuralnetworks@1.3.vendor
 
 # Parts
 $(call inherit-product, packages/apps/RealmeParts/parts.mk)
@@ -330,6 +330,7 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
+    android.hardware.power@1.2.vendor \
     vendor.qti.hardware.perf@2.2.vendor
 
 PRODUCT_COPY_FILES += \
