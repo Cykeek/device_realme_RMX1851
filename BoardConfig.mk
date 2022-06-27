@@ -74,7 +74,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 TARGET_USE_QTI_BT_STACK := true
 
 # Camera
-TARGET_USES_QTI_CAMERA_DEVICE := true
 TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
     /vendor/bin/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service=27
 
