@@ -1,6 +1,6 @@
-# All unpinned blobs below are extracted from RMX1851_11_F.05
+# All unpinned blobs below are extracted from RMX1851_11_F.07
 
-# ACDB - from RMX1851EX_11_C.15
+# ACDB - from RMX1851EX_11_C.18
 vendor/etc/acdbdata/18621/Bluetooth_cal.acdb|88a42954038d4a584d4b439d53f153efb27e946e
 vendor/etc/acdbdata/18621/General_cal.acdb|116c4f597d16335ad40c0e535763018fb3ea7c28
 vendor/etc/acdbdata/18621/Global_cal.acdb|09abdd6105a2418d720f8ad75470a6af9b4b4308
@@ -29,7 +29,7 @@ vendor/lib/libadsprpc.so
 vendor/lib/libfastrpc_utf_stub.so
 vendor/lib/libmdsprpc.so
 
-# ADSP modules - from RMX1851EX_11_C.15
+# ADSP modules - from RMX1851EX_11_C.18
 vendor/lib64/rfsa/adsp/libBeautyShot_skel.so|75772a429e312a025e5ad56c308ca7492c5ec5e6
 vendor/lib64/rfsa/adsp/libdsp_streamer_add_constant.so|481cdec174e77e5cb555d715057170568892a18f
 vendor/lib64/rfsa/adsp/libdsp_streamer_skel.so|41450e1bf58ddb6481fdc1086bbbb8c413140d0a
@@ -48,7 +48,7 @@ vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
 vendor/lib/rfsa/adsp/libthread_blur_skel.so|e41818e26e957af0fc4d48b9e85a55b1bf55615b
 
-# Audio - from RMX1851EX_11_C.15
+# Audio - from RMX1851EX_11_C.18
 vendor/lib64/libacdb-fts.so|d6f26244aa7e8e6fa481507f5f7793fc54146ad0
 vendor/lib64/libacdbloader.so|a7ac5a711f63db4740d0c7dd24f3af1e9b6dcc5d
 vendor/lib64/libacdbrtac.so|3d5ef6bf29ccdd12a617db852b97d7911dbb4c27
@@ -65,7 +65,7 @@ vendor/lib/libaudcal.so|edaac4936035abf37fb308e4958f3947b79056e6
 vendor/lib/libaudioalsa.so|89665aca431ac6de9f0848ff23fba585e70820e5
 vendor/lib/libqtigef.so|759a87141061d2b9adbb05d2e829fac481c94cc1
 
-# Audio extensions - from RMX1851EX_11_C.15
+# Audio extensions - from RMX1851EX_11_C.18
 vendor/lib64/liba2dpoffload.so|874ca46252afbe3d974df6fcd6407e3084f846c2
 vendor/lib64/libbatterylistener.so|a3a12966f3d30b4a28a683d5544b478aec2457cb
 vendor/lib64/libcomprcapture.so|411d7074f011bf6f56f67058423ce364447854d1
@@ -85,7 +85,7 @@ vendor/lib/libhfp.so|8a1db07b31781c5b8956db32b8fd4d4176ef11fd
 vendor/lib/libsndmonitor.so|2caf8ead7cd94f3d5543b658245a5d8e19e08768
 vendor/lib/libspkrprot.so|e6dfc2d5957e33236dca5e95bf36e6e9cccf6e9c
 
-# Audio HAL - from RMX1851EX_11_C.15
+# Audio HAL - from RMX1851EX_11_C.18
 vendor/lib64/hw/audio.primary.sdm710.so|590ad1d5398104aa3a7c1b973f2d79fa36166737
 vendor/lib64/libaudioEngineerTest.so|35d8420c40f8427f46e2c29aa676eee3444e7f0c
 vendor/lib64/libaudio_log_utils.so|987862da75a584802bc69d3d5fa94f03aedef27f
@@ -107,10 +107,10 @@ vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
 
-# Audio firmware - from RMX1851EX_11_C.15
+# Audio firmware - from RMX1851EX_11_C.18
 vendor/firmware/tfa98xx_18621.cnt|efa945feb957c32b144e2821f788cb7e48a74a52
 
-# Audio KTV - from RMX1851EX_11_C.15
+# Audio KTV - from RMX1851EX_11_C.18
 lib64/vendor.oppo.hardware.ktv@1.0.so|64546f4174fe8c519db4b1cd81d0e111d67d26f5
 lib/vendor.oppo.hardware.ktv@1.0.so|71b8564228c5e35817307894d7b1cfb4ef472f01
 vendor/bin/hw/vendor.oppo.hardware.ktv@1.0-service|e1c2e20d9f9240fc61d3df91435efe97df74ca63
@@ -120,7 +120,7 @@ vendor/lib64/vendor.oppo.hardware.ktv@1.0.so|35e52db5e583180489c88a94e7ac119cb32
 vendor/lib/hw/vendor.oppo.hardware.ktv@1.0-impl.so|5631f3693960b2e6748864c68b9caf5938cda6b4
 vendor/lib/vendor.oppo.hardware.ktv@1.0.so|55229e016071e85e97489d772c31ae754de84da2
 
-# Bluetooth - from RMX1851EX_11_C.15
+# Bluetooth - from RMX1851EX_11_C.18
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|3f90eadbbb611fc553fca41c9b789e51ba3a9960
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|c73850555462df00f41d2e27dc347900f2b2a4d1
@@ -130,41 +130,41 @@ vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|1a3742291766b8822618aa8
 vendor/lib/libbtnv.so|c5c607036bb1490fa01ef715f88317222c815707
 vendor/lib/libbt-hidlclient.so|2c31c66830afdcaf0d1bd58d0c0cc03597fe1c1f
 
-# Bluetooth (A2DP) - from RMX1851EX_11_C.15
+# Bluetooth (A2DP) - from RMX1851EX_11_C.18
 vendor/lib64/btaudio_offload_if.so|20fa514980f65c0ef13f153933bdc23defe2c269
 vendor/lib64/hw/audio.bluetooth_qti.default.so|e30f8a19da414d8539955edee2adabc6f7d9f921
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|818611b7c5b563c0359749cfcb8dd78575939c20
-vendor/lib64/libbluetooth_audio_session_qti.so|a794f1d404fb8a60f16969c234e624c5d13133bd
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|7a312c116697a9954b145efde65a82ba66a11d86
+vendor/lib64/libbluetooth_audio_session_qti.so|18273dcabfbd5a5e4c8165776a738972997627cd
 vendor/lib/btaudio_offload_if.so|9a63108ebf7c6a0ff9b4c9df5b192cd0bba9a38f
 vendor/lib/hw/audio.bluetooth_qti.default.so|04f4457fe34ec76f17cba67622b882cfc2d1e5f1
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|123e291be3141040c206efb22befe05339806cf4
-vendor/lib/libbluetooth_audio_session_qti.so|50bf0341545fbd9831b0021db8cdf5c4624baddb
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|7bb878b13a48492769baf9a572d17586da32b9fe
+vendor/lib/libbluetooth_audio_session_qti.so|6e7ee340d3db49263f098a0e607e7d50f3068008
 
-# Bluetooth (aptX) - from RMX1851EX_11_C.15
+# Bluetooth (aptX) - from RMX1851EX_11_C.18
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|2c5501568cfeebeed2d37af73909898085c52ad6
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|04c53116faed9592573f1dd388935e72724feb5f
 
-# Bluetooth (Configstore) - from RMX1851EX_11_C.15
+# Bluetooth (Configstore) - from RMX1851EX_11_C.18
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|4995571288da93036acbab6d052ec3dbeb90641d
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|18c77d3680aac7f7ad512ba528506444be140170
 
-# Bluetooth (SAR) - from RMX1851EX_11_C.15
+# Bluetooth (SAR) - from RMX1851EX_11_C.18
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|384b6ceca9703c6f2fee5edc21947fdd6fdcc8d1
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|f633dc95faae8322c5f52a13caa4560bbb3b9930
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|6f9f0f1a9bbd14682caf825844cf652adb7b8f4b
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|fabaa1cae55bad3beac54183848947da5e35d53d
 
-# Bluetooth (Oppo A2DP) - from RMX1851EX_11_C.15
+# Bluetooth (Oppo A2DP) - from RMX1851EX_11_C.18
 vendor/lib64/hw/vendor.oppo.hardware.bluetooth_audio@1.0-impl.so|e11a8df17d11159c5a5d7eadf3333170cb1bf95f
 vendor/lib64/vendor.oppo.hardware.bluetooth_audio@1.0.so|b5893f2494cadffa0406ad6ea6062ff84106cf5b
 vendor/lib/hw/vendor.oppo.hardware.bluetooth_audio@1.0-impl.so|cc7694e982f7c1dc0a9fd6b2a7ea4777d31e8218
 vendor/lib/vendor.oppo.hardware.bluetooth_audio@1.0.so|c4d44a1db85c15b8b96b0b64dbb39cad4fad8021
 
-# Bluetooth (shared dependencies) - from RMX1851EX_11_C.15
+# Bluetooth (shared dependencies) - from RMX1851EX_11_C.18
 vendor/lib64/com.qualcomm.qti.ant@1.0.so|7047ae2e6c796291b4c921bfdd45bce8a04a9ff0
 vendor/lib/com.qualcomm.qti.ant@1.0.so|0b79fab0034e5a7729acae0234f2922db3efc9b8
 
-# Camera - from RMX1851EX_11_C.15
+# Camera - from RMX1851EX_11_C.18
 lib64/libseemore.so|249aaf4697415fb4d137cb9637555246949e95e0
 lib/libchromaflash.so|0d91cf7c1996b3dfd42a5afbdf8e450db4d9d2f7
 vendor/etc/license.lic|486d0f2af1c11f4cb2f2178769660d3a6d4ed1d1
@@ -225,8 +225,8 @@ vendor/lib64/camera/components/com.qti.node.remosaic.so|6a1050803bf8d8d52f886ec2
 vendor/lib64/camera/components/com.qti.node.stich.so|97a45bca607fc517e8dcc3560f4f2b8b3c69f1b3
 vendor/lib64/camera/components/com.qti.node.superphoto.so|1cce5d6adcd271a46a6c5de7d0671a3429daacfb
 vendor/lib64/camera/components/com.qti.node.swregistration.so|0aeba5fe4b224cd29e4a46dd32458a28fd0d06b4
-vendor/lib64/camera/components/com.qti.stats.aec.so|ab85309fad205fa9da3ae63deafb60ee68947cfd
-vendor/lib64/camera/components/com.qti.stats.af.so|ab0a8497e5aba04cd11375508c07a79869aeae7c
+vendor/lib64/camera/components/com.qti.stats.aec.so|fcdb6d7a08759bf0169e6d79efc0ffecd95d889b
+vendor/lib64/camera/components/com.qti.stats.af.so|18b8c94af3c9ea40384eba1d0654c066916c3d39
 vendor/lib64/camera/components/com.qti.stats.afd.so|b7c4cb1f0e508ea5437e0fb2750e085cdd87e586
 vendor/lib64/camera/components/com.qti.stats.asd.so|2bb8b24b0b07521b22b4dbe271a4bd495bb43eac
 vendor/lib64/camera/components/com.qti.stats.awb.so|ac89fc011f36aaa6766b5a68daf12c2847438ba8
@@ -243,8 +243,8 @@ vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so|c3de61dcc028cee47d8e
 vendor/lib64/camera/components/com.slam.node.process.so|efff0448d522c25c3f94c2c4689cc98c19706a3e
 vendor/lib64/camera/components/com.vidhance.node.eis.so|96e0e2325a13da7561051b7483af2029d063c74b
 vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so|bac1464579e0d4767ae981007a6284dfd1538034
-vendor/lib64/hw/camera.qcom.so|90c7822bb157633bd9c1ee4d26ecaf03ae5b36f8
-vendor/lib64/hw/com.qti.chi.override.so|96840ee70e74c2508dc5c8be70a4a9292ce3ea73
+vendor/lib64/hw/camera.qcom.so|b9f3a7e20b1878b5fd80ad038b5a6006d9caa901
+vendor/lib64/hw/com.qti.chi.override.so|449f33a84ca119b1be1de2b64b4cdaa14b16fc40
 vendor/lib64/libarcsoft_beautyshot.so|74c2abbe5c376d92a31679c588e1a591c512b5fd
 vendor/lib64/libarcsoft_distortion_correction.so|d564af80b9f764ceb783fee25f65c451d0679415
 vendor/lib64/libarcsoft_distortion_correction_710.so|bf90254569ebed67ff63cffd9e72f3523cfacec9
@@ -304,21 +304,21 @@ vendor/lib64/libVDPostureDetection.so|e7874fdc5d1823e29845399292d2293435f5a216
 vendor/lib64/libVDSuperPhotoAPI.so|70ed4d8de38bcb2b0b8bd39792200f3fc05df28e
 vendor/lib64/qcom.camera.log.so|09a25f6db72ab2eb1f695d9e29b4b86781aec19a
 
-# Camera / DSP - Arcsoft libraries - from RMX1851EX_11_C.15
+# Camera / DSP - Arcsoft libraries - from RMX1851EX_11_C.18
 vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so|c2d2eb2ca4a493e10671b094b04119677aac081e
 vendor/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so|5f165db3d9e5460258243e4ad7e812a0b8e96442
 vendor/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so|41bc6d6ce38c76ea4ef1a0cdaa828216d974611d
 
-# Camera / DSP - Hexagon libraries - from RMX1851EX_11_C.15
+# Camera / DSP - Hexagon libraries - from RMX1851EX_11_C.18
 vendor/lib/rfsa/adsp/libVDHexagonBlurless_skel.so|9e634cd0c3d54b7318e73da0268b3f3f8abc086f
 vendor/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so|b30a7d98c63937b09a109beaa499d03718d62780
 vendor/lib/rfsa/adsp/libVDHexagonSuperPhoto_skel.so|1e5acf661a0a5360080ec6fef87a23449655761e
 vendor/lib/rfsa/adsp/libdepthmap_skel.so|b763ef53e1dfd30963f7a0a26dea7753f24e1926
 
-# Camera firmware - from RMX1851EX_11_C.15
+# Camera firmware - from RMX1851EX_11_C.18
 vendor/firmware/CAMERA_ICP.elf|51e9b74fb72ce0a1917251b34099c523404b2ba6
 
-# Camera - oppoAlgoProcessService - from RMX1851EX_11_C.15
+# Camera - oppoAlgoProcessService - from RMX1851EX_11_C.18
 vendor/bin/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service|9a7c7aabe8f8ff485a30b5cf458179cc2352af27
 vendor/etc/init/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service.rc|808b9e06f956919552c97febef137121bf42475f
 vendor/lib64/liboppoalgolib.so|f40ceb838da2855057480f25a53f9e46551beb16
@@ -328,7 +328,7 @@ vendor/lib64/liboppo_log_print.so|dec13874d5d91c9bf80ca18eb1c44e94b0cae4ff
 vendor/lib64/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so|fcefa7fdc2e296f0b3c9bc3b1d2196084e5e3b11
 vendor/lib64/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0.so|07193ee9d63f06d31b350b78272819f5f7c48985
 
-# Camera - oppoHalAssist - from RMX1851EX_11_C.15
+# Camera - oppoHalAssist - from RMX1851EX_11_C.18
 vendor/lib64/hw/vendor.oppo.hardware.camera.oppoHalAssist@1.0-impl.so|0fa4a3a899461ad88247c82f2cb12db132ef479d
 vendor/lib64/vendor.oppo.hardware.camera.oppoHalAssist@1.0.so|de60dbab741223ad82c98dd1812c7c3a99156224
 
@@ -345,7 +345,7 @@ vendor/lib/libfastcrc.so
 vendor/lib/libsdsprpc.so
 vendor/lib/libsysmon_cdsp_skel.so
 
-# Charger - from RMX1851EX_11_C.15
+# Charger - from RMX1851EX_11_C.18
 vendor/bin/hvdcp_opti|24e574a7551975a87018d5ac09fe7a95ea029150
 vendor/firmware/fastchg/18621/oppo_vooc_fw.bin|966e40d06f7dd801ba0b5f881ccb9aa125303bb8
 
@@ -490,7 +490,7 @@ vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 vendor/lib/vendor.qti.hardware.dsp@1.0.so
 
-# Fingerprint - from RMX1851EX_11_C.15
+# Fingerprint - from RMX1851EX_11_C.18
 vendor/bin/qfp-daemon|e9ad5c26f605cc046f351a08ec3bcdca03218ce4
 vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service|f6badbda0d0112fe9a11d0f43420ed6b4ec1b629
 vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc|9fef9ca759ce13c45b43f8c7fdf5e395e47db8c7
@@ -500,7 +500,7 @@ vendor/lib64/libqfp-service.so|4b929031d849f341d657d672ef7e17c25e652e6e
 vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so|8cc474a526dfc038afe7164b31405438e41ef9b7
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|282ec03891e7a2fa079ef82a7a4f1320df6abac7
 
-# Fingerprint firmware - from RMX1851EX_11_C.15
+# Fingerprint firmware - from RMX1851EX_11_C.18
 vendor/euclid/product/vendor/firmware/a_fp.b00:vendor/firmware/a_fp.b00|e6b295f8f1008136fadac65bdb740b302f683121
 vendor/euclid/product/vendor/firmware/a_fp.b01:vendor/firmware/a_fp.b01|99f1ab4ac71d4fd6a358d4bf85fdb67011ecdebd
 vendor/euclid/product/vendor/firmware/a_fp.b02:vendor/firmware/a_fp.b02|ff89d139faeb3f0b6db2013a6b3b9842b8a6ed1c
@@ -511,7 +511,7 @@ vendor/euclid/product/vendor/firmware/a_fp.b06:vendor/firmware/a_fp.b06|567ec80d
 vendor/euclid/product/vendor/firmware/a_fp.b07:vendor/firmware/a_fp.b07|5338d1430c143a1d6e5d07a6ccaa9a973a37d87d
 vendor/euclid/product/vendor/firmware/a_fp.mdt:vendor/firmware/a_fp.mdt|ec6c0f097131f1aa1db26fca52d684afe543d926
 
-# FM - from RMX1851EX_11_C.15
+# FM - from RMX1851EX_11_C.18
 lib64/fm_helium.so|bd293755236cb39d629ab931c6b4981f53971733
 lib64/libfm-hci.so|04616c4dcd554b874e82bd3fbfa0e464555be259
 lib/fm_helium.so|20f998641706654811fd9eb3ed98a6d6dfe5d807
@@ -649,13 +649,13 @@ my_product/etc/permissions/com.android.hotwordenrollment.common.util.xml:product
 my_product/framework/com.android.hotwordenrollment.common.util.jar:product/framework/com.android.hotwordenrollment.common.util.jar|714382db8d12aca9f5388dd72060e867e30d88e4
 -my_product/priv-app/HotwordEnrollmentOKGoogleWCD9340.apk:product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk|0db13692bbce3c14ad0fb391c3b1c04a7a54db45
 
-# Hypnus - from RMX1851EX_11_C.15
+# Hypnus - from RMX1851EX_11_C.18
 vendor/bin/hw/vendor.oppo.hardware.hypnus@1.0-service|2ea028fda6faad69f1dc13ab198f430fefc58b33
 vendor/etc/init/vendor.oppo.hardware.hypnus@1.0-service.rc|b1c68377abe259158da7eb6044fef355e41af45f
 vendor/lib64/libhypnusclient.so|f95fc593455c0fa94a3c4d15e713b5677cf5b12b
 vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so|d3a4ef0b7cba16d80708e63798cf230ba8777db9
 
-# IMS - from RMX1851EX_11_C.15
+# IMS - from RMX1851EX_11_C.18
 -product/app/uceShimService/uceShimService.apk:system_ext/app/uceShimService/uceShimService.apk|a3045172e20d8b99858c3cffdab087db73fceb8a
 product/lib64/com.qualcomm.qti.imscmservice@1.0.so:system_ext/lib64/com.qualcomm.qti.imscmservice@1.0.so|bf4fad85de650dc67be08b5a007a828ed037b841
 product/lib64/com.qualcomm.qti.imscmservice@2.0.so:system_ext/lib64/com.qualcomm.qti.imscmservice@2.0.so|5beffbe874ff8124135c6523e618e4606ca27cea
@@ -728,7 +728,7 @@ vendor/lib64/com.qualcomm.qti.uceservice@2.1.so
 vendor/lib64/com.qualcomm.qti.uceservice@2.2.so
 
 # IMS app - from PNX - RKQ1.200906.002
--system_ext/priv-app/ims/ims.apk|f87eba10af95d6d7fe3b0f1b9e145e00ccdf69f8
+-system_ext/priv-app/ims/ims.apk|d8e82158fe6b64db98a6add2df1f1ceab9a8b7bd
 
 # IO prefetcher - from RMX1931EX_11_F.04
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|f44b5e1dda355fe2f99ccaaf3860f4f443d38b22
@@ -841,7 +841,7 @@ vendor/lib64/unnhal-acc-common.so
 vendor/lib64/unnhal-acc-hvx.so
 vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
 
-# Neural Processing Engine - from RMX1851EX_11_C.15
+# Neural Processing Engine - from RMX1851EX_11_C.18
 vendor/lib64/libsnpeml.so|79c130601bca17e0ec317caa779c834076613e65
 vendor/lib64/libsnpe_dsp_domains_v2.so|31b59e9f4526546203fd299a988eab11a669b9b2
 vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so|ed7b6d894da985d52c9c579bd28635ce82cddd4c
@@ -910,7 +910,7 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 # QDCM calibration data
 vendor/etc/qdcm_calib_data_oppo18621_hx83112a_1080_2340_video_mode_dsi_panel.xml
 
-# QMI - from RMX1851EX_11_C.15
+# QMI - from RMX1851EX_11_C.18
 system/etc/permissions/qti_libpermissions.xml:system_ext/etc/permissions/qti_libpermissions.xml|ef3c88495f2f61a2d16e1445113a9d80f8db0e0a
 system/etc/permissions/qti_permissions.xml:system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 vendor/bin/irsc_util|616249962eb0c4c82db506da38acea3b29731a0f
@@ -951,7 +951,7 @@ vendor/lib/libqmiservices.so|9c176e80b3daac662c2b17cd1c6fdd21c7d4162e
 # RIL - from LA.UM.9.1.r1-07000-SMxxx0.0
 product/framework/qti-telephony-common.jar:system_ext/framework/qti-telephony-common.jar|695214c1294dc9a79ee48387140c9907203300d7
 
-# RIL - from RMX1851EX_11_C.15
+# RIL - from RMX1851EX_11_C.18
 -product/app/QtiTelephonyService/QtiTelephonyService.apk:system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|48352ce6e71cc3f541f3432cd9fdc9bcb72d1b43
 product/etc/permissions/qcrilhook.xml:system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 product/etc/permissions/telephonyservice.xml:system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
@@ -1044,7 +1044,7 @@ vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|fcb2cba3bfd71
 vendor/lib64/libqrtr.so
 vendor/lib/libqrtr.so
 
-# RIL - OPPO - from RMX1851EX_11_C.15
+# RIL - OPPO - from RMX1851EX_11_C.18
 vendor/lib64/vendor.oppo.hardware.radio.oppoappradio@1.0.so|b26efa44d86e46edfce2f71b7ac0ee63e6859b2f
 vendor/lib64/vendor.oppo.hardware.radio.opporadio@1.0.so|56cc68c9c2b9e2474046518388090bf0e7554beb
 vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|eb549953b65143d56c9ee2b74eeb5b79566edd0f
@@ -1052,7 +1052,7 @@ vendor/lib/vendor.oppo.hardware.radio.oppoappradio@1.0.so|933e9982f5d68e028ada4e
 vendor/lib/vendor.oppo.hardware.radio.opporadio@1.0.so|0c46e9dfb7fb155057e3fa967039e3d3833c574c
 vendor/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|b7d6dcad916274a29d4c1366c7fd4bb98f413dca
 
-# Sensors - from RMX1851EX_11_C.15
+# Sensors - from RMX1851EX_11_C.18
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service|1e2f806bcce877bd26448de334693d77a71d02f9
 vendor/bin/sensors.qti|a91a99bc26e1b125ce340d2ccda10d3188a183de
 vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc|449c88778d880c0d47cc4d651fc60c4c424c1a3f
@@ -1072,7 +1072,7 @@ vendor/lib64/sensors.ap.so|ec8b17c9ba3f4bd8c15bd7ae8453b305bde39fdc
 vendor/lib64/sensors.ssc.so|fb34b091b70bea7ea19b6daa1359306afcc70ff8
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|31e21a6219a19e3a1af1e393c30d04a8dcc6992e
 
-# Sensors configs - from RMX1851EX_11_C.15
+# Sensors configs - from RMX1851EX_11_C.18
 vendor/etc/sensors/config/ak991x_dri_0.json|07bab9123b532777c85435aa3c3a50cc315b3538
 vendor/etc/sensors/config/bmi160_0.json|c79feb19023400edde9b45ccae5374d8b8eb2de1
 vendor/etc/sensors/config/bmi26x_0.json|968327da57c45bc0466d1e7fdf6593d621e4cd23
@@ -1126,7 +1126,7 @@ vendor/etc/sensors/config/stk3x3x_0.json|407d6174c8f19f6da1e4c205f5cbf7b5ae90039
 vendor/etc/sensors/config/tsl2540_0.json|07d733d5824de830665568594da011e124f59221
 vendor/etc/sensors/sns_reg_config|9922422f6b57f69d802091b67df9b7a907ea2662
 
-# Snapdragon Computer Vision Engine - from RMX1851EX_11_C.15
+# Snapdragon Computer Vision Engine - from RMX1851EX_11_C.18
 vendor/etc/scve/facereco/gModel.dat|447e5e3fefe8bcf36db0f7a8595c63fb326879ba
 vendor/lib64/libfastcvopt.so|f9591182156d747350c3c05b882a9aaac6a97cb3
 vendor/lib64/libfastcvdsp_stub.so|ca9111bbae96a6c62936d91d8fe86d8199480f46
