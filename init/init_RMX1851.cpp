@@ -17,6 +17,9 @@
 #include "property_service.h"
 #include "vendor_init.h"
 
+#include <fs_mgr_dm_linear.h>
+
+using android::base::GetProperty;
 using android::base::SetProperty;
 using android::base::ReadFileToString;
 using android::base::Trim;
@@ -76,6 +79,15 @@ static void workaround_snet_properties() {
 
 void vendor_load_properties()
 {
+
+#ifdef __ANDROID_RECOVERY__
+  std::string buildtype = GetProperty("ro.build.type", "userdebug");
+  if (buildtype != "user") {
+    property_override("ro.debuggable", "1");
+    property_override("ro.adb.secure.recovery", "0");
+  }
+#endif
+
     workaround_snet_properties();
     const auto set_ro_build_prop = [](const std::string &source,
             const std::string &prop, const std::string &value) {
