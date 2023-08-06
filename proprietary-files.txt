@@ -485,9 +485,11 @@ vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service|f6badbda0d
 vendor/bin/qfp-daemon|e9ad5c26f605cc046f351a08ec3bcdca03218ce4
 vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc|9fef9ca759ce13c45b43f8c7fdf5e395e47db8c7
 vendor/etc/permissions/qti_fingerprint_interface.xml|d3efc0abac8c064b3f8ccd783875b3d532972212
+vendor/lib/vendor.oppo.hardware.hypnus@1.0.so
 vendor/lib64/android.frameworks.fingerprintservice@1.0.so|4c555ac172b4addccee51c28c7bb6a213d5083f7
 vendor/lib64/libqfp-service.so|4b929031d849f341d657d672ef7e17c25e652e6e
 vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so|8cc474a526dfc038afe7164b31405438e41ef9b7
+vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|282ec03891e7a2fa079ef82a7a4f1320df6abac7
 
 # Fingerprint firmware - from RMX1851EX_11_C.18
