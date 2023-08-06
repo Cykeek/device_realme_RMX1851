@@ -14,3 +14,6 @@ set_prop(rild, vendor_radio_prop)
 
 #Fix no service problem
 binder_call(rild, qtidataservices_app)
+
+# Oplus Radio
+allow rild default_android_hwservice:hwservice_manager { find };
