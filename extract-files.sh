@@ -62,6 +62,9 @@ function blob_fixup() {
         vendor/lib/hw/camera.qcom.so | vendor/lib64/hw/camera.qcom.so)
             sed -i "s|/oppo_product/vendor_overlay/0/etc/camera/oppo_camera_config.xml|//////vendor///////etc///////camera///////oppo_camera_config.xml|g" "${2}"
            ;;
+        vendor/etc/sensors/hals.conf)
+            sed -i "/sensors.ap.so/d" "${2}"
+           ;;
     esac
 }
 
