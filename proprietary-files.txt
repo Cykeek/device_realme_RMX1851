@@ -322,6 +322,14 @@ vendor/lib/rfsa/adsp/libdepthmap_skel.so
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
 
+# Camera (From F.06)
+system_ext/lib/vendor.oplus.hardware.orms@1.0.so:vendor/lib/vendor.oplus.hardware.orms@1.0.so:|70ec1f7284e919328c4ce8f886b6254b18f62ade
+system_ext/lib64/vendor.oplus.hardware.orms@1.0.so:vendor/lib64/vendor.oplus.hardware.orms@1.0.so|e4d720ce78c6cd2918a7f398ed2a0ad9a024e1a9
+vendor/euclid/odm/lib/libormshalclient.so:odm/lib/libormshalclient.so|0e3d92ca473493b184d16273a6a2eaafe0fda307
+vendor/euclid/odm/lib/vendor.oplus.hardware.orms@1.0.so:odm/lib/vendor.oplus.hardware.orms@1.0.so|ca909f74a3a5bb1579d027f8f513b913c22f82b9
+vendor/euclid/odm/lib64/libormshalclient.so:odm/lib64/libormshalclient.so|67ffeec4720de0cfbb8947ccf9f58649322e15ac
+vendor/euclid/odm/lib64/vendor.oplus.hardware.orms@1.0.so:odm/lib64/vendor.oplus.hardware.orms@1.0.so|273c4f73e75dcc9a0c7f8447f3eaa8defef5d263
+
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
