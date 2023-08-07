@@ -158,9 +158,9 @@ vendor/lib/vendor.oppo.hardware.bluetooth_audio@1.0.so|c4d44a1db85c15b8b96b0b64d
 vendor/lib64/hw/vendor.oppo.hardware.bluetooth_audio@1.0-impl.so|e11a8df17d11159c5a5d7eadf3333170cb1bf95f
 vendor/lib64/vendor.oppo.hardware.bluetooth_audio@1.0.so|b5893f2494cadffa0406ad6ea6062ff84106cf5b
 
-# Bluetooth (shared dependencies) - from RMX1851EX_11_C.18
-vendor/lib/com.qualcomm.qti.ant@1.0.so|0b79fab0034e5a7729acae0234f2922db3efc9b8
-vendor/lib64/com.qualcomm.qti.ant@1.0.so|7047ae2e6c796291b4c921bfdd45bce8a04a9ff0
+# Bluetooth (ANT+) - from RMX1851EX_11_F.06
+system_ext/lib/com.qualcomm.qti.ant@1.0.so:vendor/lib/com.qualcomm.qti.ant@1.0.so|bbb35d1f7bf9f9f309b1e7a2a57502c0817ce1b1
+system_ext/lib64/com.qualcomm.qti.ant@1.0.so:vendor/lib64/com.qualcomm.qti.ant@1.0.so|afca189b074868279ef583dee14b575f2676ea52
 
 # Camera
 odm/etc/camera/oppo_camera_config.xml
