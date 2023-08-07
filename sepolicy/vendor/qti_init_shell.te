@@ -9,3 +9,4 @@ allow vendor_qti_init_shell proc_devinfo:dir search;
 allow vendor_qti_init_shell proc_devinfo:file { getattr read open };
 allow vendor_qti_init_shell sysfs:file setattr;
 allow vendor_qti_init_shell sysfs_leds:file setattr;
+allow qti_init_shell sensors_persist_file:fifo_file { getattr };

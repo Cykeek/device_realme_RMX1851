@@ -9,11 +9,13 @@ allow rild nv_data_file:dir { getattr search write create add_name };
 allow rild nv_data_file:file { read write create open };
 allow rild proc_devinfo:dir search;
 allow rild proc_devinfo:file r_file_perms;
+allow rild mnt_vendor_file:dir { search };
 
 set_prop(rild, vendor_radio_prop)
+get_prop(rild, default_prop)
 
 #Fix no service problem
 binder_call(rild, qtidataservices_app)
 
 # Oplus Radio
-allow rild default_android_hwservice:hwservice_manager { find };
+allow rild default_android_hwservice:hwservice_manager { find add };
