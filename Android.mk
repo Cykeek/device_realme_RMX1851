@@ -105,6 +105,17 @@ $(WCNSS_MAC_SYMLINK): $(LOCAL_INSTALLED_MODULE)
 	@rm -rf $@
 	$(hide) ln -sf /mnt/vendor/persist/$(notdir $@) $@
 
-ALL_DEFAULT_INSTALLED_MODULES += $(WCNSS_INI_SYMLINK) $(WCNSS_MAC_SYMLINK)
+FINGERPRINT_IMAGES := \
+	a_fp.b00 a_fp.b01 a_fp.b02 a_fp.b03 a_fp.b04 \
+	a_fp.b05 a_fp.b06 a_fp.b07 a_fp.mdt
+
+FINGERPRINT_SYMLINKS := $(addprefix $(TARGET_OUT_VENDOR)/firmware/,$(notdir $(FINGERPRINT_IMAGES)))
+$(FINGERPRINT_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
+	      @echo "Fingerprint firmware link: $@"
+	      @mkdir -p $(dir $@)
+	      @rm -rf $@
+	      $(hide) ln -sf /firmware/image/$(notdir $@) $@
+
+ALL_DEFAULT_INSTALLED_MODULES += $(WCNSS_INI_SYMLINK) $(WCNSS_MAC_SYMLINK) $(FINGERPRINT_SYMLINKS)
 
 endif
