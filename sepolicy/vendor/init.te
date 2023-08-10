@@ -9,3 +9,7 @@ allow init sysfs_cpu_boost:file w_file_perms;
 allow init sysfs_devices_system_cpu:file w_file_perms;
 allow init sysfs_kgsl:file w_file_perms;
 allow init sysfs_kgsl:lnk_file r_file_perms;
+
+# For mount /sys/kernel/debug/tracing
+# to support tracefs if debugfs is disabled
+allow init debugfs_tracing_debug:dir { mounton };
