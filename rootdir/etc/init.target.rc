@@ -135,6 +135,12 @@ on property:sys.shutdown.requested=*
     stop vendor.per_proxy
     stop vendor.ims_rtp_daemon
 
+service adsprpcd /vendor/bin/adsprpcd
+   class main
+   user media
+   group media
+   disabled
+
 on charger
     start vendor.hvdcp_opti
     setprop sys.usb.configfs 1
