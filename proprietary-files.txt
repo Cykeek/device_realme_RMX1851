@@ -120,6 +120,10 @@ vendor/lib64/vendor.oppo.hardware.ktv@1.0.so|35e52db5e583180489c88a94e7ac119cb32
 vendor/lib/hw/vendor.oppo.hardware.ktv@1.0-impl.so|5631f3693960b2e6748864c68b9caf5938cda6b4
 vendor/lib/vendor.oppo.hardware.ktv@1.0.so|55229e016071e85e97489d772c31ae754de84da2
 
+# Audio libraries
+vendor/lib/libbatterylistener.so
+vendor/lib64/libbatterylistener.so
+
 # Bluetooth - from RMX1851EX_11_C.15
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|3f90eadbbb611fc553fca41c9b789e51ba3a9960
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
