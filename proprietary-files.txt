@@ -1218,11 +1218,13 @@ odm/lib/mediadrm/libwvdrmengine.so
 odm/lib64/liboemcrypto.so
 odm/lib64/libwvhidl.so
 odm/lib64/mediadrm/libwvdrmengine.so
+vendor/lib/libtrustedapploader.so
 vendor/lib64/libhdcp1prov.so
 vendor/lib64/libhdcp2p2prov.so
 vendor/lib64/libhdcpsrm.so
 vendor/lib64/libminkdescriptor.so
 vendor/lib64/libspl.so|0cf185c22519bbae1e1232928fda151f538f9977
+vendor/lib64/libtrustedapploader.so
 
 # WiFi cnss
 vendor/bin/cnss-daemon
