@@ -650,12 +650,6 @@ my_product/etc/permissions/com.android.hotwordenrollment.okgoogle.xml:product/et
 my_product/framework/com.android.hotwordenrollment.common.util.jar:product/framework/com.android.hotwordenrollment.common.util.jar|714382db8d12aca9f5388dd72060e867e30d88e4
 -my_product/priv-app/HotwordEnrollmentOKGoogleWCD9340.apk:product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk|0db13692bbce3c14ad0fb391c3b1c04a7a54db45
 
-# Hypnus - from RMX1851EX_11_C.15
-vendor/bin/hw/vendor.oppo.hardware.hypnus@1.0-service|2ea028fda6faad69f1dc13ab198f430fefc58b33
-vendor/etc/init/vendor.oppo.hardware.hypnus@1.0-service.rc|b1c68377abe259158da7eb6044fef355e41af45f
-vendor/lib64/libhypnusclient.so|f95fc593455c0fa94a3c4d15e713b5677cf5b12b
-vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so|d3a4ef0b7cba16d80708e63798cf230ba8777db9
-
 # IMS - from RMX1851EX_11_F.07
 -product/app/uceShimService/uceShimService.apk:system_ext/app/uceShimService/uceShimService.apk|05808d56578fc699a90481813274273631e3611f
 product/lib64/com.qualcomm.qti.imscmservice@1.0.so:system_ext/lib64/com.qualcomm.qti.imscmservice@1.0.so|10f63ef7cd5835c0b63c6988c667ed1c1c72fe24
