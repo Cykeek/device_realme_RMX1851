@@ -29,18 +29,17 @@ vendor/lib64/libadsprpc.so
 vendor/lib64/libfastrpc_utf_stub.so
 vendor/lib64/libmdsprpc.so
 
-# ADSP modules - from RMX1851EX_11_C.15
+# ADSP modules - from RMX1851EX_11_F.07
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|2c5501568cfeebeed2d37af73909898085c52ad6
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|04c53116faed9592573f1dd388935e72724feb5f
-vendor/lib/rfsa/adsp/dirac-capiv2.so|7f0bd5401b9598e7cbe8e267e60850ea941c6e2a
-vendor/lib/rfsa/adsp/dirac_resource.dar|cff2b434c8594b13bfcb8e8416b6bada58799d16
-vendor/lib/rfsa/adsp/dirac_resource_game.dar|606b88d6ff18be0aea03c2350aa43cf33030cabb
-vendor/lib/rfsa/adsp/libVC1Dec.so|80f2879a960344b24539725b2a5dc9ebe9d97bf5
-vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so|c626d2136bf0d0016baf4c39ecc4a8f3241fa342
-vendor/lib/rfsa/adsp/libapps_mem_heap.so|1cdac354c585c0d236d77b0888ebd5894b333326
+vendor/lib/rfsa/adsp/dirac.so|42b4c514d857aa5b56bb210eb8bde90cfacb2823
+vendor/lib/rfsa/adsp/dirac_resource.dar|cd8151c0d35ae3edadfabecc7acaa14bddca1798
+vendor/lib/rfsa/adsp/libVC1Dec.so|732ede3ede9e6e1b09c439156f62a07d8fa0ee3e
+vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so|eff059c5a29a44d205bd60ad24aecc46416e939e
+vendor/lib/rfsa/adsp/libapps_mem_heap.so|26ac189fbdd6a893172a2781b90cbaf96eba0c7e
 vendor/lib/rfsa/adsp/libcamera_nn_skel.so|e4a35174a93264b38fe210a3f99e5fb7be8dc39e
 vendor/lib/rfsa/adsp/libdepthmap_skel.so|b763ef53e1dfd30963f7a0a26dea7753f24e1926
-vendor/lib/rfsa/adsp/libdspCV_skel.so|c6034c389845a94a4054dd0fe9a0381adbf086e5
+vendor/lib/rfsa/adsp/libdspCV_skel.so|2253ba74ae5d14dee3beeb07af64dbd429dbe011
 vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
 vendor/lib/rfsa/adsp/libthread_blur_skel.so|e41818e26e957af0fc4d48b9e85a55b1bf55615b
