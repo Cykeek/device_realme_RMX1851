@@ -331,10 +331,6 @@ vendor/lib64/liboppo_log_print.so|dec13874d5d91c9bf80ca18eb1c44e94b0cae4ff
 vendor/lib64/liboppoalgolib.so|f40ceb838da2855057480f25a53f9e46551beb16
 vendor/lib64/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0.so|07193ee9d63f06d31b350b78272819f5f7c48985
 
-# Camera - oppoHalAssist - from RMX1851EX_11_C.15
-vendor/lib64/hw/vendor.oppo.hardware.camera.oppoHalAssist@1.0-impl.so|0fa4a3a899461ad88247c82f2cb12db132ef479d
-vendor/lib64/vendor.oppo.hardware.camera.oppoHalAssist@1.0.so|de60dbab741223ad82c98dd1812c7c3a99156224
-
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
