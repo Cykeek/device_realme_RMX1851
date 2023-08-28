@@ -44,3 +44,10 @@ on init
     # OTG
     chown system system /sys/class/power_supply/usb/otg_switch
     chmod 0664 /sys/class/power_supply/usb/otg_switch
+
+service vendor.adsprpcd /vendor/bin/adsprpcd
+    override
+    class main
+    user system
+    group media
+    disabled
